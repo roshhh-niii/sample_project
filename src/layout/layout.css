@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #1f6fff, #9b59ff);
+}
+
+/* CENTER PAGE */
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* LOGIN BOX */
+.box {
+  height: 450px;
+  width: 850px;
+  display: flex;
+  overflow: hidden;
+  border-radius: 10px;
+  background: whitesmoke;
+}
+
+/* LEFT SIDE */
+.leftside {
+  width: 60%;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.leftside h1,
+.leftside p {
+  position: relative;
+  z-index: 1;
+}
+
+.leftside h1 {
+  margin-top: 40px;
+  margin-left: 40px;
+  font-size: 50px;
+  color: rgb(211, 0, 0);
+}
+
+.leftside p {
+  margin-left: 40px;
+  width: 70%;
+  line-height: 1.5;
+  color: black;
+}
+
+/* RIGHT SIDE */
+.rightside {
+  width: 40%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+
+.rightside h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.rightside input {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 20px;
+  background: #070707;
+  color: white;
+}
+
+.rightside button {
+  width: 120px;
+  padding: 12px;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(to right, #ff8ac6, #6c63ff);
+  color: white;
+  cursor: pointer;
+  align-self: center;
+}
+
+.signup-text {
+  margin-top: 15px;
+  text-align: center;
+  color: #555;
+}
+
+/* SIGNUP BUTTON IN LOGIN PAGE */
+#one {
+  text-align: center;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #ff8ac6, #6c63ff);
+  color: white;
+  margin-top: 10px;
+}
+
+/* SIGNUP PAGE */
+.signup-box {
+  width: 450px;
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.signup-box h1 {
+  text-align: center;
+  color: black;
+}
+
+.signup-box input {
+  padding: 12px;
+  border: none;
+  border-radius: 20px;
+  background: #070707;
+  color: white;
+}
+
+.signup-box button {
+  padding: 12px;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(to right, #ff8ac6, #6c63ff);
+  color: white;
+  cursor: pointer;
+}
+
+.login-link {
+  text-align: center;
+  text-decoration: none;
+  color: blue;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: -8px;
+  margin-bottom: 10px;
+}

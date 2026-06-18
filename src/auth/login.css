@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* PAGE BACKGROUND */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #5da9ff, #b8c7ff);
+}
+
+/* CENTER CARD */
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MAIN BOX */
+.box {
+  width: 900px;
+  height: 500px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+/* LEFT PANEL */
+.leftside {
+  width: 55%;
+  background: #f8f8f8;
+  padding: 50px;
+}
+
+.leftside h1 {
+  color: #d4552d;
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+.leftside p {
+  color: #444;
+  line-height: 1.6;
+  width: 80%;
+}
+
+/* RIGHT PANEL */
+.rightside {
+  width: 45%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+
+.rightside h3 {
+  text-align: center;
+  margin-bottom: 35px;
+  font-size: 28px;
+  color: #222;
+}
+
+/* INPUTS */
+.rightside input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 18px;
+  border: none;
+  border-radius: 30px;
+  background: #111;
+  color: white;
+  font-size: 15px;
+}
+
+.rightside input::placeholder {
+  color: #999;
+}
+
+/* LOGIN BUTTON */
+.login-btn {
+  width: 140px;
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  margin: 0 auto;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(to right, #f7d4ff, #b7bfff);
+}
+
+/* SIGNUP TEXT */
+.signup-text {
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+}
+
+/* SIGNUP BUTTON */
+.signup-btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px;
+  margin-top: 15px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(to right, #f7d4ff, #b7bfff);
+}
+
+/* SIGNUP PAGE */
+.signup-box {
+  width: 450px;
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.signup-box h1 {
+  text-align: center;
+  color: black;
+}
+
+.signup-box input {
+  padding: 12px;
+  border: none;
+  border-radius: 20px;
+  background: #111;
+  color: white;
+}
+
+.signup-box button {
+  padding: 12px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  background: linear-gradient(to right, #f7d4ff, #b7bfff);
+}
+
+.login-link {
+  text-align: center;
+  text-decoration: none;
+  color: #4b5cff;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
