@@ -8,7 +8,7 @@ import {
   FaUser
 } from "react-icons/fa";
 
-function Dashboard() {
+function Dashboard() { 
 
   const navigate = useNavigate();
 
@@ -16,10 +16,9 @@ function Dashboard() {
   const [amount, setAmount] = useState("");
   const [category, setCategory] = useState("");
 
-  const user = JSON.parse(
-    localStorage.getItem("user")
-  );
-
+ const user = JSON.parse(
+  localStorage.getItem("user") || "null"
+);
   useEffect(() => {
 
     if (!user) {
