@@ -1,4 +1,17 @@
-# React + Vite
+PS C:\Users\roshn\OneDrive\Desktop\react\sample> git init
+
+git : The term 'git' is not recognized as the name of a 
+cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was 
+included, verify that the path is correct and try again.
+At line:1 char:1
++ git init
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (git:Stri 
+   ng) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\roshn\OneDrive\Desktop\react\sample> # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
